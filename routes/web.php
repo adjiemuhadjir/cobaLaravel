@@ -11,11 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'PagesController@home');
+Route::get('/about', 'PagesController@about');
 
-Route::get('/about', function () {
-	$nama = 'Mpandi';
-    return view('about', ['nama' => $nama]);
-});
+Route::get('/mahasiswa', 'MahasiswaController@index');
