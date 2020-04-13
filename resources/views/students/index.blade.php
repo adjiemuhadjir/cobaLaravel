@@ -7,7 +7,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-6">
-    			<h1 class="mt-3">Daftar Students</h1>
+    			<h1 class="mt-3">List Students</h1>
 
           <a href="/students/create" class="btn btn-primary my-3">Tambah Data Mahasiswa</a>
 
